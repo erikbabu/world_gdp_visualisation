@@ -8,4 +8,4 @@ World map created with aid of Pygal Maps
 To invoke program: 'python world_gdp.py'
 
 When prompted, enter a year between 1960 and 2016 inclusive
-The program will output an svg file. To view this, open the file in a browser (e.g. Chrome, Firefox, ...)
+The program will output to an svg file. To view this, open the file in a browser (e.g. Chrome, Firefox, ...). The map is interactive: Hovering over each country shows the GDP in $bn. Filters can also be applied based on the GDP ranges, allowing the user to view specific countries in each GDP bracket. If a country is filled with white, then that country's GDP data was unavailable for that year.
